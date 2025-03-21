@@ -38,6 +38,13 @@ nav a {
 
 footer {
   background-color: #d9043d;
+  margin-top: 2em;
+  padding: 2em;
+  text-align: center;
+}
+
+footer small {
+  color: white;
 }
 
 h1 {
@@ -68,6 +75,8 @@ h2 {
 #gallery-container img {
   border-bottom: 10px solid #97bf04;
   max-width: 650px;
+  width: 100%;
+  height: auto;
   display: block;
   margin: 0 auto;
 }
@@ -75,7 +84,6 @@ h2 {
 #gallery-container figure {
   padding: 1.5em;
   background-color: white;
-  max-width: fit-content;
 }
 
 h3 {
