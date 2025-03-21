@@ -113,19 +113,30 @@ figure p {
     grid-column: span 1;
   }
 
+  nav {
+    background-color: #120323;
+  }
+
   nav ul {
     display: block;
     height: 100%;
-    padding: 1em 0;
+    padding: 0.2em 0 1em 0;
   }
 
   nav li {
-    border: 0.3em solid #97bf04;
+    border: 0.2em solid #97bf04;
+    padding: 0;
     width: 90%;
-    margin: 1em auto;
+    margin: 1em auto 1em auto;
+    background-color: #d9043d;
   }
 
   nav a {
+    display: block;
     font-weight: 500;
+    width: 100%;
+    height: 3em;
+    line-height: 3em;
+    margin: 0 auto;
   }
 }
