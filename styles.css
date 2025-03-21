@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: #cccccc;
+}
+
+header {
+  background-color: #120323;
+}
+
+nav {
+  background-color: #d9043d;
+}
+
+footer {
+  background-color: #d9043d;
+}
