@@ -11,6 +11,7 @@ body {
 
 header {
   background-color: #120323;
+  /* width: 100%; */
 }
 
 nav {
@@ -22,6 +23,17 @@ nav ul {
   justify-content: center;
   align-items: center;
   height: 3em;
+  list-style: none;
+}
+
+nav li {
+  padding: 1.5em;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  font-weight: 300;
 }
 
 footer {
@@ -33,6 +45,11 @@ h1 {
   margin: 0 0 0.5em 0;
 }
 
+h2 {
+  text-align: center;
+  padding: 1em 0 1.5em 0;
+}
+
 .header-container {
   text-align: center;
 }
@@ -41,6 +58,30 @@ h1 {
   margin: 1em 0 1em 0;
 }
 
+#gallery-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 5.5em;
+  margin: 0 3em 0 3em;
+}
+
 #gallery-container img {
   border-bottom: 10px solid #97bf04;
+  max-width: 650px;
+  display: block;
+  margin: 0 auto;
+}
+
+#gallery-container figure {
+  padding: 1.5em;
+  background-color: white;
+  max-width: fit-content;
+}
+
+h3 {
+  padding: 1em 0 1em 0;
+}
+
+#gallery-container figure:last-child {
+  grid-column: span 2;
 }
