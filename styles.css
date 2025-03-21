@@ -93,3 +93,19 @@ h3 {
 #gallery-container figure:last-child {
   grid-column: span 2;
 }
+
+@media screen and (max-width: 1000px) {
+  #gallery-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width:768px) {
+  #gallery-container {
+    grid-template-columns: 1fr;
+  }
+
+  #gallery-container figure:last-child {
+    grid-column: span 1;
+  }
+}
