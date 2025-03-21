@@ -112,4 +112,20 @@ figure p {
   #gallery-container figure:last-child {
     grid-column: span 1;
   }
+
+  nav ul {
+    display: block;
+    height: 100%;
+    padding: 1em 0;
+  }
+
+  nav li {
+    border: 0.3em solid #97bf04;
+    width: 90%;
+    margin: 1em auto;
+  }
+
+  nav a {
+    font-weight: 500;
+  }
 }
