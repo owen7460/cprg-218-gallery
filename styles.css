@@ -20,3 +20,11 @@ nav {
 footer {
   background-color: #d9043d;
 }
+
+h1 {
+  color: #97bf04;
+}
+
+#gallery-container img {
+  border-bottom: 10px solid #97bf04;
+}
